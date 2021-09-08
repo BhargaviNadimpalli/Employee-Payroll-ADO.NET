@@ -34,7 +34,7 @@ namespace EmployeePayroll
                             employeeModel.Gender = Convert.ToChar(dr.GetString(5));
                             Console.WriteLine("{0},{1},{2},{3},{4},{5}", employeeModel.EmployeeId, employeeModel.EmployeeName, employeeModel.Phone_Number, employeeModel.Address, employeeModel.Department);
                             Console.WriteLine("\n");
-                        }
+                        }              
                     }
                     else
                     {
