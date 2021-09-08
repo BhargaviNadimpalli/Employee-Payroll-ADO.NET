@@ -9,7 +9,7 @@ namespace EmployeePayroll
             Console.WriteLine("Welcome to employee pay roll");
             EmployeeRapo rapo = new EmployeeRapo();
            
-            rapo.GetAllEmployee();
+            rapo.GetAllEmployee();           
         }
     }
 }
